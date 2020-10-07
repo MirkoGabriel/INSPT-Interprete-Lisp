@@ -18,7 +18,6 @@
 ; Si no, imprime la 1ra. pos. del resultado y se llama recursivamente con la 2da. pos. del resultado. 
 (defn repl
    ([] 
-      (println "Mirko Crack")
       (println "Interprete de TLC-LISP en Clojure")
 	  (println "Trabajo Practico de Programacion III")
 	  (println "Inspirado en:")
