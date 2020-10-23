@@ -351,7 +351,7 @@
 		if
 		(igual? elem (first lis))
 		(nth lis 1)
-		(buscar elem (drop 1 lis))
+		(buscar elem (drop 2 lis))
 	)
 ))
 
@@ -367,7 +367,7 @@
 		  (nil? lis) (list nil amb-global)
 	      (igual? nil (first (evaluar (first (first lis)) amb-global amb-local))) (evaluar-cond (next lis) amb-global amb-local)
 		  true (evaluar-secuencia-en-cond (next (first lis)) amb-global amb-local)
-)
+	)
 )
 
 
